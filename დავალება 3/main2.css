@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+body{
+    font-family: "Edu QLD Hand", cursive;
+}
+.satauri{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid black
+}
+.logo{
+    text-align: center;
+}
+h3{
+    color: red;
+}
+.logo img{
+    width: 150px;
+}

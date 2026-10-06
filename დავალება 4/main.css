@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "orbitron";
+    src: url(font/Orbitron-VariableFont_wght.ttf);
+}
+body{
+    font-family: "orbitron";
+    background-color: #000A18;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+ footer{
+    text-align: center;
+    color: white;
+    margin: 30px;
+ }
+.sec-1 img{
+    width: 250px;
+    height: 250px;
+}
+.logo{
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+.head ul li{
+    display: inline-block;;
+    margin-top: 40px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.head{
+    text-align: right;
+}
+.main-txt{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+.sec-2{
+    color: white;
+}
+.sataurebi{
+    margin-left:  0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.sataurebi h4{
+    font-size: 13px;
+    color: #9333FF;
+}
+.sataurebi h2{
+    font-size: 27px
+}
+.sataurebi ul{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.sec-2 ul li p{
+    padding: 10px;
+    word-spacing: 7px;
+}
+span{
+    color: aqua;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.photo img{
+    width: 350px;
+    height: 540px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.web{
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+}

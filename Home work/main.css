@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
+}
+header{
+    background-color: white;
+    margin: 10px;
+}
+body{
+    background-color: blanchedalmond;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul{
+    list-style: none;
+}
+footer p{
+    text-align: center;
+}
+.text-sec{
+    background-color: white;
+}
+section h2{
+    padding: 10px;
+}
+.aboutme{
+    background-color: white;
+}
+.text-sec p span{
+    color: red;
+}
