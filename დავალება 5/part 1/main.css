@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.head ul li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.head{
+    background-color: burlywood;
+    text-align: center;
+}
+.foto img{
+    width: 200px;
+    height: 200px;
+}
+.foto{
+    text-align: center;
+    margin-top: 15px;
+}
+.p1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: grey;
+}
+.p2{
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+}
