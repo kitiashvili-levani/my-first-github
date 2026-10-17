@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: 0.5s;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px #ccc;
+}
+.support{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: aqua;
+    color: white;
+    padding: 15px;
+    border-radius: 100%;
+}
