@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "ShareTech-Regular";
+    src: url(font/ShareTech-Regular.ttf);
+}
+body{
+    font-family: "ShareTech-Regular";
+    background-color: #e5ffff;
+}
+img{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.circle{
+    background-color: #20c5c5;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+header{
+    margin-top: 15px;
+}
+.label2{
+    background-color: #20c5c5;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+h3{
+    font-size: 30px;
+}
+.foto{
+    width: 350px;
+    height: auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 50px;
+}
+.label{
+    background-color: #20c5c5;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    max-width: max-content;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.txt{
+    max-width: max-content;
+}
+p{
+    color: grey;
+}
+.txt p{
+    font-size: 15px;
+}
+h2{
+    font-size: 55px;
+    
+}
+.boxes{
+    position: relative;
+    top: 70px;
+    display: flex;
+    gap: 3px;
+}
+.box{
+    width: 140px;
+    height: 70px;
+    background-color: #a3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box h4{
+    font-size: 25px;
+}
+.box p{
+    font-size: 12px;
+}
+.sec1{
+    position: relative;
+    top: 30px;
+}
+.sec2{
+    position: relative;
+    top: 80px;
+}
+.foto2{
+    width: 250px;
+    height: auto;
+    position: relative;
+    width: 300px;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content:space-around;
+}
+.txt2 h2{
+    font-size: 30px;
+}
+.txt2 p{
+    font-size: 18px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.prc-button{
+    background-color: #20c5c5;
+    padding: 18px 35px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+.cv-button{
+    border: #20c5c5 solid 2px;
+    padding: 18px 35px;
+    border-radius: 4px;
+    color: #20c5c5;
+    font-size: 18px;
+}
+.icon{
+    background-color: #b0ecec;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    padding: 18px 35px;
+    align-items: center;
+    gap: 15px;
+}
+.support{
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    background-color: #20c5c5;
+    color: white;
+    padding: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.support:hover{
+    box-shadow: 3px 3px 3px #ccc;
+    scale: 1.1;
+}
