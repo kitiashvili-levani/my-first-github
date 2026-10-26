@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    border: dotted 30px rgb(0, 0, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 50%;
+
+    animation: spiner 2s infinite ease;
+}
+i{
+    font-size: 40px;
+    color: red;
+
+    animation: spiner 2s infinite ease;
+}
+
+@keyframes spiner {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: scale(-0.7);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}

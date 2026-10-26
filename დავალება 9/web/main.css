@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap:20px
+}
+
+body{
+    font-family: "firago";
+}
+
+img{
+    max-width: 100%;
+}
+
+/* section{
+    margin-top: 60px;
+} */
+
+@font-face {
+    font-family: "firago";
+    src: url(font/firago-latin-300-normal.ttf);
+}
+
+header{
+    background-color: rgba(4, 51, 115, 1);
+    padding: 16px;
+    position: sticky;
+    top: 0;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.header-menu nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-menu nav ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.header-menu nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu nav ul i{
+    color: white;
+}
+
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.login{
+    padding: 16px 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 228, 146, 1);
+    color: rgba(4, 56, 115, 1);
+    border: none;
+}
+.try{
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+}
+
+.box{
+    background-color: rgba(196, 222, 253, 1);
+    width: 824px;
+    height: 549px;
+}
+
+.sec1{
+    background-image: url(img/Element.png);
+    background-color: rgba(4, 56, 115, 1);
+    padding: 140px 220px;
+}
+
+.txt h2{
+    font-size: 64px;
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.txt p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    color: white;
+}
+.txt button{
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+
+.txt button:hover{
+    scale: 1.1;
+    background-color: rgb(3, 76, 159);
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2{
+    padding: 140px 220px;
+    background-image: url(img/BACKGROUND.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+.box2{
+    background-color: rgba(196, 222, 253, 1);
+    width: 748px;
+    height: 547px;
+}
+
+.txt2 h1{
+    font-size: 72px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.txt2 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+
+.txt2 button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.txt2 i{
+    color: white;
+}
+
+.sec3{
+    padding: 140px 220px;
+}
+
+.txt3 h1{
+    font-size: 72px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.txt3 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+
+.txt3 button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.gp{
+    display: flex;
+    gap: 60px;
+}
+
+.foot{
+    text-align: center;
+}
+.foot p{
+    margin-top: auto;
+    font-size: 25px;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px){
+    .row{
+        flex-direction: column;
+    }
+    .box
+    .box2
+    .box3{
+        width: max-content;
+    }
+    header{
+        width: max-content;
+        position: sticky;
+        top: 0;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+    .row{
+        flex-direction: column;
+    }
+
+    header{
+        width: max-content;
+        position: sticky;
+        top: 0;
+    }
+}
