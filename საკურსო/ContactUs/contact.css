@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    font-family: "roboto";
+    /* background-color: black; */
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0;
+    margin-bottom: 60px;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+}
+
+section{
+    margin-bottom: 100px
+}
+
+img{
+    max-width: 100%;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu nav ul li{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: rgba(12, 12, 12, 0.9);
+}
+
+button{
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 23px;
+    cursor: pointer;
+    border: none;
+}
+
+.headbtn{
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+}
+
+button:hover{
+    background-color:rgba(100, 204, 197, 1);
+    scale: 1.1;
+    transition: 0.3s;
+    color: white;
+}
+
+/* section 1 */
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.lefttxt{
+    border-bottom: 1px solid rgba(223, 223, 223, 1) ;
+    margin-bottom: 47px;
+}
+
+.lefttxt h2{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.lefttxt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.leftinfo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.lefticon{
+    color: white;
+    background-color: black;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.leftinfotxt h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.leftinfotxt p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.borderbtm{
+    border-bottom: 1px solid  rgba(223, 223, 223, 1) ;
+    margin-top: 47 px;
+}
+
+.leftsocial{
+    margin-top: 18px;
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+}
+.sec1content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+}
+.right form{
+    background-color: rgba(244, 244, 244, 1);
+    width: 795px;
+    height: 522px;
+    border-radius: 20px;
+    padding: 45px;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px 40px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.full{
+    grid-column: span 2;
+}
+
+.field label{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.field input,
+.field textarea{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(223, 223, 223, 1);
+    outline: none;
+    font-size: 14px;
+    padding: 8px 0;
+    resize: none;
+}
+
+.submitbtn{
+    grid-column: span 2;
+    justify-self: start;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+
+/* section 2 */
+.sec2 iframe{
+    width: 100%;
+    height: 314px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 70px 0 40px;
+    color: white;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+/* ზედა ნაწილი */
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-col h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer-col ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-sub h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.sub-form{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 433px;
+    justify-content: space-between;
+}
+
+.sub-form input{
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.sub-form button{
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+    padding: 8px 15px 8px 15px;
+}
+/* ქვედა ნაწილი */
+.footer hr{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btm h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.footer-btm p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.back{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

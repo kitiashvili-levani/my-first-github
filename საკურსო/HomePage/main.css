@@ -23,6 +23,12 @@ header{
     position: fixed;
     width: 100%;
     padding: 7px 0;
+    z-index: 100;
+}
+
+main{
+    position: relative;
+    z-index: 1;
 }
 
 img{
@@ -70,6 +76,15 @@ button{
     font-size: 18px;
     padding: 8px 15px;
     border-radius: 23px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color:rgba(100, 204, 197, 1);
+    scale: 1.1;
+    transition: 0.3s;
+    color: white;
 }
 
 .card{
@@ -159,6 +174,42 @@ button{
     padding: 40px;
 }
 
+.box:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.box1:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.box2:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.box3:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.box4:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.box5:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
 .box1{
     background-color: lightgrey;
     border-radius: 20px;
@@ -231,4 +282,303 @@ button{
 
 .mb-60{
     margin-bottom: 60px;
+}
+
+.sec4{
+    margin-top: 100px;
+    padding: 50px 50px;
+}
+
+.sec4-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.sec4-content h4{
+    color: rgba(100, 204, 197, 1);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sec4-content h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.sec4-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(244, 244, 244, 1);
+}
+
+.sec4-numbers{
+    display: flex;
+    gap: 59px;
+}
+
+.n330 h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgba(100, 204, 197, 1);
+}
+
+.n330 p{
+    color: rgba(244, 244, 244, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.n230 h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgba(100, 204, 197, 1);
+}
+
+.n230 p{
+    color: rgba(244, 244, 244, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.sec5{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.sec5-headtxt{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.sec5-headtxt h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(100, 204, 197, 1);
+}
+
+.sec5-headtxt h2{
+    font-size: 64px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.sec5-cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card1{
+    border: 4px solid lightgray;
+    width: 340px;
+    height: 260px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.card1:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    scale: 1.1;
+    transition: 0.7s;
+}
+
+.card-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-head h5{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sec6{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.sec6 h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.imgcard1 h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.imgcard1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.imgcard1 img{
+    margin-bottom: 15px;
+}
+
+.imgcard{
+    display: flex;
+    gap: 50px;
+}
+
+.rightbtn{
+    margin-bottom: 35px;
+    background-color: black;
+    color: white;
+
+    align-self: flex-end;
+}
+
+.rightside{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec7{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.arrw{
+    cursor: pointer;
+}
+
+.sec7-card{
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 20px;
+    padding: 45px;
+    text-align: center;
+}
+
+.sec7-card h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sec7-card h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sec7-card p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+ /* footer */
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 70px 0 40px;
+    color: white;
+}
+/* ზედა ნაწილი */
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-col h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer-col ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-sub h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.sub-form{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 433px;
+    justify-content: space-between;
+}
+
+.sub-form input{
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.sub-form button{
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+    padding: 8px 15px 8px 15px;
+}
+/* ქვედა ნაწილი */
+.footer hr{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btm h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.footer-btm p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.back{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

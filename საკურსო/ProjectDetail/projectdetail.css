@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    font-family: "roboto";
+    /* background-color: black; */
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0;
+    margin-bottom: 24px;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu nav ul li{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: rgba(12, 12, 12, 0.9);
+}
+
+button{
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 23px;
+    cursor: pointer;
+    border: none;
+}
+
+.headbtn{
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+}
+
+button:hover{
+    background-color:rgba(100, 204, 197, 1);
+    scale: 1.1;
+    transition: 0.3s;
+    color: white;
+}
+
+/* section1 */
+
+.sec1content{
+    position: relative;
+    width: 1400px;
+    height: 590px;
+}
+
+.sec1content img{
+    display: block;
+    width: 100%;
+}
+
+.sec1btm{
+    display: flex;
+    gap: 45px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btmbar,
+.btmbar2,
+.btmbar3,
+.btmbar4 {
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.btmbar h5,
+.btmbar2 h5,
+.btmbar3 h5,
+.btmbar4 h5{
+    margin-bottom: 11px;
+} 
+
+/* secion2 */
+
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.wdth{
+    width: 525px;
+}
+
+.sec2{
+    color: black;
+}
+
+.sec2maintxt h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec2maintxt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec2foto{
+    display: flex;
+    gap: 75px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+/* section3 */
+
+.sec3 h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.sec3card h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.sec3card p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec3label{
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 70px 0 40px;
+    color: white;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+/* ზედა ნაწილი */
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-col h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer-col ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-sub h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.sub-form{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 433px;
+    justify-content: space-between;
+}
+
+.sub-form input{
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.sub-form button{
+    background-color: rgba(12, 12, 12, 0.9);
+    color: white;
+    padding: 8px 15px 8px 15px;
+}
+/* ქვედა ნაწილი */
+.footer hr{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btm h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.footer-btm p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.back{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
